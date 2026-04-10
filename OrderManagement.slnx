@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/Solution Items/" />
+  <Folder Name="/Solution Items/images/">
+    <File Path="images/me_and_mads_torgersen.gif" />
+    <File Path="images/me_and_mark_seemann.gif" />
+    <File Path="images/me_and_rebecca_wirfs_brock.gif" />
+    <File Path="images/me_and_robert_c_martin.gif" />
+    <File Path="images/me_on_domain-driven-design.gif" />
+    <File Path="images/me_on_functional_programming.gif" />
+    <File Path="images/me_on_git_project.gif" />
+    <File Path="images/me_on_result_pattern.gif" />
+    <File Path="images/System Boundries.excalidraw" />
+    <File Path="images/SystemBoundriesBasketApi.png" />
+  </Folder>
+  <Folder Name="/src/">
+    <File Path="README.md" />
+    <Project Path="src/VOEConsulting.Flame.Domain.Common/VOEConsulting.Flame.Domain.Common.csproj" />
+    <Project Path="src/VOEConsulting.Flame.OrderManagement.Api/VOEConsulting.Flame.OrderManagement.Api.csproj" />
+    <Project Path="src/VOEConsulting.Flame.OrderManagement.Application/VOEConsulting.Flame.OrderManagement.Application.csproj" />
+    <Project Path="src/VOEConsulting.Flame.OrderManagement.Domain/VOEConsulting.Flame.OrderManagement.Domain.csproj" />
+    <Project Path="src/VOEConsulting.Flame.OrderManagement.Infrastructure/VOEConsulting.Flame.OrderManagement.Infrastructure.csproj" />
+    <Project Path="src/VOEConsulting.Flame.OrderManagement.Worker/VOEConsulting.Flame.OrderManagement.Worker.csproj" />
+  </Folder>
+</Solution>

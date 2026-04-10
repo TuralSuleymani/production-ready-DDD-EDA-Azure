@@ -1,0 +1,41 @@
+@host = http://localhost:5062
+
+### List orders for a customer (read model)
+GET {{host}}/customers/cust-1/orders
+Accept: application/json
+
+###
+
+### Get one order summary
+GET {{host}}/customers/cust-1/orders/order-1
+Accept: application/json
+
+###
+
+### Place order (write model — requires Cosmos)
+POST {{host}}/orders
+Content-Type: application/json
+
+{
+  "tenantId": "t1",
+  "orderId": "order-1",
+  "customerId": "cust-1"
+}
+
+###
+
+### Ops list (partition = tenant|status|yyyy-MM)
+GET {{host}}/tenants/t1/ops/orders?status=Placed&yearMonth=2026-04
+Accept: application/json
+
+###
+
+### Cancel / ship (after place)
+POST {{host}}/tenants/t1/orders/order-1/cancel
+
+###
+
+POST {{host}}/tenants/t1/orders/order-1/ship
+
+###
+

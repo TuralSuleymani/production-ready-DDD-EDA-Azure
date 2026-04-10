@@ -1,0 +1,10 @@
+global using VOEConsulting.Flame.Domain.Common.Errors;
+global using VOEConsulting.Flame.Domain.Common.Events;
+global using VOEConsulting.Flame.OrderManagement.Api;
+global using VOEConsulting.Flame.OrderManagement.Application.DependencyInjection;
+global using VOEConsulting.Flame.OrderManagement.Application.Orders.Commands.CancelOrder;
+global using VOEConsulting.Flame.OrderManagement.Application.Orders.Commands.MarkShipped;
+global using VOEConsulting.Flame.OrderManagement.Application.Orders.Commands.PlaceOrder;
+global using VOEConsulting.Flame.OrderManagement.Application.Orders.Queries;
+global using VOEConsulting.Flame.OrderManagement.Infrastructure;
+global using VOEConsulting.Flame.OrderManagement.Infrastructure.Hosting;
